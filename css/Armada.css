@@ -13,7 +13,7 @@ body{
 aside#playerleft{Float:left; width: 320px; Margin-top:5px; padding-left: 5px;border:0px;}
 #leftplayer{border: 0px;font-size:35px;background-image:url('../images/Stars2.jpg');color:white;text-decoration-line:underline;max-width: 290px;}
 #Shipleft{margin-top:4px;margin-bottom: 0px;padding-left: 5px;border: 3px #5dade2 solid;border-bottom:0px;border-radius: 12px 12px 0px 0px;font-size:18px;text-decoration-line:underline;background-color: black;color:white;width:240px;}
-textarea#Upgradeleft{margin:0px;padding-left: 5px;border:3px #5dade2 solid;border-top: 0px;border-bottom-right-radius:40px;background-image:url('../images/Stars2.jpg');color: white;font-size: 14px;width: 239px;resize: vertical;}
+textarea#Upgradeleft{margin:0px;padding-left: 5px;border:3px #5dade2 solid;border-top: 0px;border-bottom-right-radius:40px;background-image:url('../images/Stars2.jpg');color: white;font-size: 14px;width: 239px;overflow:hidden;resize: vertical;}
 
 
 aside#playerright{Float:right; width: 300px; Margin-top:5px; padding-right: 5px; text-align: right;}
