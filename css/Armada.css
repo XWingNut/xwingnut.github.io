@@ -24,12 +24,12 @@ textarea#Upgraderight{margin:0px;padding-right: 5px;border:3px #5dade2 solid;bor
 
 #Aft{margin:0px 0px 0px 38px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius: 22px;background-color:#aed6f1;color: black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
 #Left{margin: 0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
-#Hull{margin:0px ;max-width:18px;height:18px;border:4px solid #909497;border-radius:4px;background-color:#F0F3F4;color:black;font-size: 20px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
+#Hull{margin:0px ;max-width:23px;height:18px;border:4px solid #909497;border-radius:4px;background-color:#F0F3F4;color:black;font-size: 16px;font-weight: bold;text-align: center;padding-right: 4px; padding-bottom:2px}
 #Right{margin:0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
 #Fore{margin:0px 38px 0px 0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
 
 		#zones h1{color: white;font-size:10px;margin:0px 0px 8px 42px;text-align: left;}
-		.gap1{margin-left: 13px}.gap2{margin-left: 10px}.gap3{margin-left: 7px}.gap4{margin-left: 7px}
+		.gap1{margin-left: 13px}.gap2{margin-left: 12px}.gap3{margin-left: 11px}.gap4{margin-left: 7px}
     #zones h2{color: white;font-size:10px;margin:0px 42px 8px 0px;text-align:right;}
 
 		#Sqname{margin-left:1px;max-width:42px;height:11px;border:0px;background-color:black;color:white;font-size: 10px;text-align: center;}
