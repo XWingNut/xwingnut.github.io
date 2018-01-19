@@ -14,179 +14,18 @@ body{
 #back a:hover{color: blue; font-weight: bold;}
 
 aside#playerleft{Float:left; width: 300px; Margin-top:5px; padding-left: 5px;}
-#leftplayer{border: 0px;font-size:35px;background-image:url('../images/Stars2.jpg');color:white;text-align:center;text-decoration-line:underline;max-width: 290px;}
+#leftplayer{border: 0px;border-bottom: 3px double #5D6D7E;padding-left: 5px;padding-bottom: 0px;font-size:30px;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align:left;max-width:290px;}
 
-#Shipleft1{
-  margin-top:15px;
-	padding-left: 5px;
-	border: 0px;
-	font-size:20px;
-	text-decoration-line:underline;
-	background-image:url('../images/Stars2.jpg');
-	color:white;
-	width: 230px;}
-
-			#Shipleft2{
-			  margin-top:15px;
-				padding-left: 5px;
-				border: 0px solid #5D6D7E;
-				font-size:20px;
-				text-decoration-line:underline;
-				background-image:url('../images/Stars2.jpg');
-				color:white;
-				width: 210px;}
-
-				#Shipleft3{
-				  margin-top:15px;
-					padding-left: 5px;
-					border: 0px solid #5D6D7E;
-					font-size:20px;
-					text-decoration-line:underline;
-					background-image:url('../images/Stars2.jpg');
-					color:white;
-					width: 210px;}
-
-					#Shipleft4{
-					  margin-top:15px;
-						padding-left: 5px;
-						border: 0px;
-						font-size:20px;
-						text-decoration-line:underline;
-						background-image:url('../images/Stars2.jpg');
-						color:white;
-						width: 230px;}
-
-								#Shipleft5{
-								  margin-top:15px;
-									padding-left: 5px;
-									border: 0px solid #5D6D7E;
-									font-size:20px;
-									text-decoration-line:underline;
-									background-image:url('../images/Stars2.jpg');
-									color:white;
-									width: 210px;}
-
-									#Shipleft6{
-									  margin-top:15px;
-										padding-left: 5px;
-										border: 0px solid #5D6D7E;
-										font-size:20px;
-										text-decoration-line:underline;
-										background-image:url('../images/Stars2.jpg');
-										color:white;
-										width: 210px;}
-
-										#Shipleft7{
-											margin-top:15px;
-											padding-left: 5px;
-											border: 0px solid #5D6D7E;
-											font-size:20px;
-											text-decoration-line:underline;
-											background-image:url('../images/Stars2.jpg');
-											color:white;
-											width: 210px;}
-
-											#Shipleft8{
-												margin-top:15px;
-												padding-left: 5px;
-												border: 0px solid #5D6D7E;
-												font-size:20px;
-												text-decoration-line:underline;
-												background-image:url('../images/Stars2.jpg');
-												color:white;
-												width: 210px;}
-
-
-
+#Shipleft{margin-top:15px;padding-left: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;width: 230px;}
 
 
 aside#playerright{Float:right; width: 300px; Margin-top:5px; padding-right: 5px; text-align: right;}
-#rightplayer{margin-top:5px;border: 0px;font-size:35px;background-image:url('../images/Stars2.jpg');;color:white;text-align:center;text-decoration-line: underline;max-width: 290px;}
+#rightplayer{border: 0px;border-bottom: 3px double #5D6D7E;padding-left: 5px;padding-bottom: 0px;font-size:30px;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align:right;max-width: 290px;}
 
-#Shipright1{
-  margin-top:15px;
-	padding-right: 5px;
-	border: 0px;
-	font-size:20px;
-	text-decoration-line:underline;
-	background-image:url('../images/Stars2.jpg');
-	color:white;
-	text-align: right;
-	max-width: 230px;}
+#Shipright{margin-top:15px;padding-right: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align: right;max-width: 230px;}
 
-			#Shipright2{
-			  margin-top:15px;
-				padding-right: 5px;
-				border: 0px;
-				font-size:20px;
-				text-decoration-line:underline;
-				background-image:url('../images/Stars2.jpg');
-				color:white;
-				text-align: right;
-				max-width: 210px;}
-
-								#Shipright3{
-								  margin-top:15px;
-									padding-left: 5px;
-									border: 0px solid #5D6D7E;
-									font-size:20px;
-									text-decoration-line:underline;
-									background-image:url('../images/Stars2.jpg');
-									color:white;text-align: right;
-									width: 210px;}
-
-									#Shipright4{
-									  margin-top:15px;
-										padding-left: 5px;
-										border: 0px;
-										font-size:20px;
-										text-decoration-line:underline;
-										background-image:url('../images/Stars2.jpg');
-										color:white;text-align: right;
-										width: 230px;}
-
-												#Shipright5{
-												  margin-top:15px;
-													padding-left: 5px;
-													border: 0px solid #5D6D7E;
-													font-size:20px;
-													text-decoration-line:underline;
-													background-image:url('../images/Stars2.jpg');
-													color:white;text-align: right;
-													width: 210px;}
-
-													#Shipright6{
-													  margin-top:15px;
-														padding-left: 5px;
-														border: 0px solid #5D6D7E;
-														font-size:20px;
-														text-decoration-line:underline;
-														background-image:url('../images/Stars2.jpg');
-														color:white;text-align: right;
-														width: 210px;}
-
-														#Shipright7{
-															margin-top:15px;
-															padding-left: 5px;
-															border: 0px solid #5D6D7E;
-															font-size:20px;
-															text-decoration-line:underline;
-															background-image:url('../images/Stars2.jpg');
-															color:white;text-align: right;
-															width: 210px;}
-
-															#Shipright8{
-																margin-top:15px;
-																padding-left: 5px;
-																border: 0px solid #5D6D7E;
-																font-size:20px;
-																text-decoration-line:underline;
-																background-image:url('../images/Stars2.jpg');
-																color:white;text-align: right;
-																width: 210px;}
-
-textarea#Upgradeleft{margin-top:5px;height: 50px;padding-left: 5px;border: 3px double #5D6D7E;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 50px;background-image:url('../images/Stars2.jpg');color: white;font-size: 14px;max-width: 190px;}
-textarea#Upgraderight{margin-top:5px;height: 50px;padding-right: 5px;border: 3px double #5D6D7E;border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-left-radius: 50px;background-image:url('../images/Stars2.jpg');color: white;font-size: 14px;text-align: right;resize:vertical;overflow: hidden;max-width: 190px;}
+textarea#Upgradeleft{margin-top:5px;height: 50px;padding-left: 5px;border: 3px double #5D6D7E;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 50px;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;max-width: 190px;}
+textarea#Upgraderight{margin-top:5px;height: 50px;padding-right: 5px;border: 3px double #5D6D7E;border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-left-radius: 50px;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;text-align: right;resize:vertical;overflow: hidden;max-width: 190px;}
 
 #ps{margin-top:5px;max-width: 25px;height: 25px;padding-right:2px;padding-top: 3px;border:4px solid #ff5700;border-radius: 20px;background-color:black;color:#ff5700;font-size: 22px;font-family: Arial;font-weight: bold;text-align: center;}
 
@@ -194,6 +33,7 @@ textarea#Upgraderight{margin-top:5px;height: 50px;padding-right: 5px;border: 3px
 #defenceleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px; border:3px double green;border-radius: 8px;background-color:black;color:green;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
 #hullleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double yellow;border-radius: 8px;background-color:black;color:yellow;font-size: 20px;font-family: Arial;font-weight: bold;text-align: center;}
 #sheildleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double blue;border-radius: 8px;background-color:black;;color: blue;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
+#points{margin-top:5px;max-width: 45px;height: 22px;padding-right:2px;padding-top:3px; border:0px;background-image:url('../images/Stars2.jpg');color: white;font-size: 16px;font-family: Serif;text-align:center;}
 #attackright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double red;border-radius: 8px;background-color:black;color: red;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
 #defenceright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double Green;border-radius: 8px;background-color:black;color: green;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
 #hullright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double yellow;border-radius: 8px;background-color:black;color: yellow;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
