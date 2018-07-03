@@ -1,0 +1,41 @@
+*{font-family:Bank Gothic Medium BT;}
+body{
+	background-image:url('../images/Stars2.jpg');
+	background-size: contain;
+	background-position: center;
+	overflow: hidden;
+	height: 100vh;
+	font-family:Bank Gothic Medium BT;
+	margin:0;}
+
+@font-face{font-family: "Bank Gothic Medium BT";src: url('Bank Gothic Medium BT.ttf') format('embedded-opentype'),url('Bank Gothic Medium BT.ttf')format('opentype');}
+
+aside#playerleft{Float:left; width: 380px; Margin-top:5px; padding-left: 5px;border:0px;}
+#leftplayer{border: 0px;border-bottom: 3px double #5D6D7E;font-size:30px;background-image:url('../images/Stars2.jpg');color:white;text-align:left;text-decoration: none;;max-width: 350px;}
+#Shipleft{margin-top:4px;margin-bottom: 0px;padding-left: 5px;border: 3px #5dade2 solid;border-bottom:0px;border-radius: 12px 12px 0px 0px;font-size:16px;text-decoration-line:underline;background-color: black;color:white;width:240px;}
+textarea#Upgradeleft{margin:0px;padding-left: 5px;border:3px #5dade2 solid;border-top: 0px;border-bottom-right-radius:40px;background-image:url('../images/Stars2.jpg');color: white;font-size: 12px;width: 239px;resize: vertical;}
+
+
+aside#playerright{Float:right; width: 380px; Margin-top:5px; padding-right: 5px; text-align: right;}
+#rightplayer{margin-top:5px;border: 0px;border-bottom: 3px double #5D6D7E;font-size:30px;background-image:url('../images/Stars2.jpg');color:white;text-align:right;text-decoration:none;max-width: 350px;}
+#Shipright{margin-top:4px;margin-bottom: 0px;padding-right: 5px;border: 3px #5dade2 solid;border-bottom:0px;border-radius: 12px 12px 0px 0px;font-size:16px;text-decoration-line:underline;text-align:right;background-color: black;color:white;width:240px;}
+textarea#Upgraderight{margin:0px;padding-right: 5px;border:3px #5dade2 solid;border-top: 0px;border-bottom-left-radius:40px;background-image:url('../images/Stars2.jpg');color: white;font-size: 12px;text-align:right;width: 239px;overflow: hidden;resize: vertical;}
+
+
+#Aft{margin:0px 0px 0px 38px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius: 22px;background-color:#aed6f1;color: black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
+#Left{margin: 0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
+#Hull{margin:0px ;max-width:22px;height:22px;border:4px solid #909497;border-radius:4px;background-color:#F0F3F4;color:black;font-size: 20px;font-family: Arial;font-weight: bold;text-align: center;padding-right: 3px; padding-bottom:0px}
+#Right{margin:0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
+#Fore{margin:0px 38px 0px 0px;max-width:18px;height:18px;border:4px solid #5dade2;border-radius:22px;background-color:#aed6f1;color:black;font-size: 18px;font-weight: bold;text-align: center;padding-right: 2px; padding-bottom:2px}
+
+		#zones h1{color: white;font-size:10px;margin:0px 0px 8px 42px;text-align: left;}
+		.gap1{margin-left: 13px}.gap2{margin-left: 12px}.gap3{margin-left: 11px}.gap4{margin-left: 7px}
+    #zones h2{color: white;font-size:10px;margin:0px 42px 8px 0px;text-align:right;}
+
+		#Sqname{margin-left:1px;max-width:42px;height:11px;border:0px;background-color:black;color:white;font-size: 10px;text-align: center;}
+		#SqHull{margin:0px 12px 0px 13px;max-width:18px;height:18px;border:0px;background-color:black;color:white;font-size: 16px;text-align:center;}
+
+
+		#back{width:20%;margin:auto;padding-top: 100px;}
+		#back a{color:#fff;text-decoration: none;text-transform: uppercase;font-size: 18px}
+		#back a:hover{color: blue; font-weight: bold;}
