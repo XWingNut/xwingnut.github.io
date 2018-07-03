@@ -16,25 +16,18 @@ body{
 aside#playerleft{Float:left; width: 300px; Margin-top:5px; padding-left: 5px;}
 #leftplayer{border: 0px;border-bottom: 3px double #5D6D7E;padding-left: 5px;padding-bottom: 0px;font-size:30px;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align:left;max-width:290px;}
 
-#Shipleft{margin-top:15px;padding-left: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;width: 230px;}
+#Shipleft{margin-top:5px;padding-left: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;width: 270px;}
 
 
 aside#playerright{Float:right; width: 300px; Margin-top:5px; padding-right: 5px; text-align: right;}
 #rightplayer{border: 0px;border-bottom: 3px double #5D6D7E;padding-left: 5px;padding-bottom: 0px;font-size:30px;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align:right;max-width: 290px;}
 
-#Shipright{margin-top:15px;padding-right: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align: right;max-width: 230px;}
+#Shipright{margin-top:5px;padding-right: 5px;border: 0px;font-size:20px;text-decoration-line:underline;background-image:url('../images/Stars2.jpg');color:#D0D3D4;text-align: right;max-width: 270px;}
 
-textarea#Upgradeleft{margin-top:5px;height: 50px;padding-left: 5px;border: 3px double #5D6D7E;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 50px;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;max-width: 190px;}
-textarea#Upgraderight{margin-top:5px;height: 50px;padding-right: 5px;border: 3px double #5D6D7E;border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-left-radius: 50px;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;text-align: right;resize:vertical;overflow: hidden;max-width: 190px;}
+textarea#Upgradeleft{margin-top:5px;height: 16px;padding-left: 5px;border:0px;border-top:3px double #5D6D7E;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;overflow: hidden;max-width: 200px;}
+textarea#Upgraderight{margin-top:0px;height: 16px;padding-right: 5px;border:0px;border-top:3px double #5D6D7E;background-image:url('../images/Stars2.jpg');color: #D0D3D4;font-size: 14px;text-align: right;resize:vertical;overflow: hidden;max-width: 200px;}
 
-#ps{margin-top:5px;max-width: 25px;height: 25px;padding-right:2px;padding-top: 3px;border:4px solid #ff5700;border-radius: 20px;background-color:black;color:#ff5700;font-size: 22px;font-family: Arial;font-weight: bold;text-align: center;}
-
-#attackleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px; border:3px blue;border-style: double;border-radius: 8px;background-color:black;color: blue;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#defenceleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px; border:3px double yellow;border-radius: 8px;background-color:black;color:yellow;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#hullleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double Green;border-radius: 8px;background-color:black;color:green;font-size: 20px;font-family: Arial;font-weight: bold;text-align: center;}
-#sheildleft{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double red;border-radius: 8px;background-color:black;;color: red;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#points{margin-top:5px;max-width: 45px;height: 22px;padding-right:2px;padding-top:3px; border:0px;background-image:url('../images/Stars2.jpg');color: white;font-size: 16px;font-family: Serif;text-align:center;}
-#attackright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double red;border-radius: 8px;background-color:black;color: red;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#defenceright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double Green;border-radius: 8px;background-color:black;color: green;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#hullright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double yellow;border-radius: 8px;background-color:black;color: yellow;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
-#sheildright{margin-top:5px;max-width: 22px;height: 22px;padding-right:2px;padding-top:3px;border:3px double blue;border-radius: 8px;background-color:black;color: blue;font-size: 20px;font-family: Arial; font-weight: bold;text-align: center;}
+#ps{margin-top:5px;max-width: 24px;height: 24px;padding-right:2px;padding-top: 3px;border:3px solid #ff5700;border-radius: 22px;background-color:black;color:#ff5700;font-size: 23px;font-family: Arial;font-weight: bold;text-align: center;}
+#hull{margin-top:5px;max-width:26px;height: 25px;padding-left:27px;padding-top:3px;border:0px;border-radius: 8px;background-image: url('../images/Hull.jpg');color:#FFFF99;font-size: 23px;font-family: Arial;font-weight: bold;text-align: left;}
+#sheild{margin-top:5px;max-width: 42px;height: 25px;padding-right:2px;padding-top:3px;border:0px;border-radius: 8px;background-image: url('../images/Sheild.jpg');color:#1E90FF;font-size: 23px;font-family: Arial; font-weight: bold;text-align:right;}
+#points{margin-top:5px;max-width: 50px;height: 22px;padding-right:2px;padding-top:3px; border:0px;background-image:url('../images/Stars2.jpg');color: white;font-size: 16px;font-family: Serif;text-align:center;}
