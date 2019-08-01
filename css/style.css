@@ -29,11 +29,17 @@ Header a:hover{color: blue; font-weight: bold;}
 .Xwinglinks li{display:inline;padding: 0 12px 0 0px;}
 .Xwinglinks a{color:red;text-decoration: none;text-transform: uppercase;font-size: 18px}
 .Xwinglinks a:hover{color: blue; font-weight: bold;}
+.Xwingepic{float: right;margin: 0px 140px 0px 0px;}
 
-.Armadalinks{float: right; margin: 0px 30px 0px 0px;}
+.Armadalinks{float: left; margin: auto;}
 .Armadalinks li{display:inline;padding: 0 12px 0 0px; margin: 0px}
 .Armadalinks a{color:blue;text-decoration: none;text-transform: uppercase;font-size: 18px}
-.Armadalinks a:hover{color: blue; font-weight: bold;}
+.Armadalinks a:hover{color: red; font-weight: bold;}
+
+.SSD{float: right; margin: 0px 30px 0px 0px;}
+.SSD li{display:inline;padding: 0px 6px 0px 0px; margin: 0px;}
+.SSD a{color:blue;text-decoration: none;text-transform: uppercase;font-size: 18px;}
+.SSD a:hover{color: red; font-weight: bold;}
 
 #subtitle-1 h2{text-align: center;}
 .Logo{margin-left:40px}
