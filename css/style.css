@@ -41,5 +41,16 @@ Header a:hover{color: blue; font-weight: bold;}
 .SSD a{color:blue;text-decoration: none;text-transform: uppercase;font-size: 18px;}
 .SSD a:hover{color: red; font-weight: bold;}
 
+.SSD2{float: right; margin: 200px -385px 0px 0px;}
+.SSD2 li{display:inline;padding: 0px 20px 0px 0px; margin: 0px;}
+.SSD2 a{color:blue;text-decoration: none;text-transform: uppercase;font-size: 18px;}
+.SSD2 a:hover{color: red; font-weight: bold;}
+
+.SSD3{float: right; margin: 400px -450px 0px 0px;}
+.SSD3 li{display:inline;padding: 0px 6px 0px 0px; margin: 0px;}
+.SSD3 a{color:blue;text-decoration: none;text-transform: uppercase;font-size: 18px;}
+.SSD3 a:hover{color: red; font-weight: bold;}
+
+
 #subtitle-1 h2{text-align: center;}
 .Logo{margin-left:40px}
