@@ -1,106 +1,173 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="X Wing and Armada overlay builder">
-	<meta name="keywords" content="X Wing and Armada overlay builder">
+  <meta name="keywords" content="X Wing and Armada overlay builder">
   <meta name="author" content="X Wing Nut">
-	<title>Armada SSD 8 vs 1 Right</title>
-	<link rel="stylesheet" type="text/css" href="../css/ArmadaSSD.css">
+  <title>Armada 8v1</title>
+  <link rel="stylesheet" type="text/css" href="../css/ArmadaSSD.css">
 </head>
+
 <body>
 
-	<aside id="playerleft">
-		<div><input id="leftplayer" type="name" placeholder="Name.."></div>
+  <aside id="playerleft">
+    <div>
+      <Img id="namel" src="Imp1L.png" alt="Faction" onclick="changeNL()";>
 
-		<div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-		<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-		<div><input id="Aft" type="name" placeholder="0">
-			   <input id="Left" type="name" placeholder="0">
-			   <input id="Hull" type="name" placeholder="0">
-				 <input id="Right" type="name" placeholder="0">
-		     <input id="Fore" type="name" placeholder="0"></div>
-		<div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+           <script type="text/javascript">var image_tracker ='1';function changeNL()
+           {var image = document.getElementById('namel');
+           if(image_tracker=='1'){image.src="Imp2L.png";image_tracker='2';}
+           else if(image_tracker=='2'){image.src="Reb1L.png";image_tracker='3';}
+           else if(image_tracker=='3'){image.src="Reb2L.png";image_tracker='4';}
+           else {image.src='Imp1L.png';image_tracker="1";}
+           }</script>
 
-		<div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-		<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-		<div><input id="Aft" type="name" placeholder="0">
-			   <input id="Left" type="name" placeholder="0">
-			   <input id="Hull" type="name" placeholder="0">
-				 <input id="Right" type="name" placeholder="0">
-		     <input id="Fore" type="name" placeholder="0"></div>
-				 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+      <input id="leftplayer" type="name" placeholder="Name.."></div>
 
-					 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-				 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-				 	<div><input id="Aft" type="name" placeholder="0">
-				 			 <input id="Left" type="name" placeholder="0">
-				 			 <input id="Hull" type="name" placeholder="0">
-				 			 <input id="Right" type="name" placeholder="0">
-				 			 <input id="Fore" type="name" placeholder="0"></div>
-				 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+    <aside id="playerleft">
 
-								 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-							 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-							 	<div><input id="Aft" type="name" placeholder="0">
-							 			 <input id="Left" type="name" placeholder="0">
-							 			 <input id="Hull" type="name" placeholder="0">
-							 			 <input id="Right" type="name" placeholder="0">
-							 			 <input id="Fore" type="name" placeholder="0"></div>
-							 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+      <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+      <div><input id="Aft" type="name" placeholder="0">
+           <input id="Left" type="name" placeholder="0">
+           <input id="Hull" type="name" placeholder="0">
+           <input id="Right" type="name" placeholder="0">
+           <input id="Fore" type="name" placeholder="0"></div>
+           <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
 
-											 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-										 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-										 	<div><input id="Aft" type="name" placeholder="0">
-										 			 <input id="Left" type="name" placeholder="0">
-										 			 <input id="Hull" type="name" placeholder="0">
-										 			 <input id="Right" type="name" placeholder="0">
-										 			 <input id="Fore" type="name" placeholder="0"></div>
-										 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+             <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+             <div><input id="Aft" type="name" placeholder="0">
+                  <input id="Left" type="name" placeholder="0">
+                  <input id="Hull" type="name" placeholder="0">
+                  <input id="Right" type="name" placeholder="0">
+                  <input id="Fore" type="name" placeholder="0"></div>
+                  <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
 
-														 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-													 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-													 	<div><input id="Aft" type="name" placeholder="0">
-													 			 <input id="Left" type="name" placeholder="0">
-													 			 <input id="Hull" type="name" placeholder="0">
-													 			 <input id="Right" type="name" placeholder="0">
-													 			 <input id="Fore" type="name" placeholder="0"></div>
-													 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
-
-																	 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-																 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-																 	<div><input id="Aft" type="name" placeholder="0">
-																 			 <input id="Left" type="name" placeholder="0">
-																 			 <input id="Hull" type="name" placeholder="0">
-																 			 <input id="Right" type="name" placeholder="0">
-																 			 <input id="Fore" type="name" placeholder="0"></div>
-																 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
-
-																				 <div><input id="Shipleft" type="name" placeholder="Ship..."></div>
-																			 	<div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
-																			 	<div><input id="Aft" type="name" placeholder="0">
-																			 			 <input id="Left" type="name" placeholder="0">
-																			 			 <input id="Hull" type="name" placeholder="0">
-																			 			 <input id="Right" type="name" placeholder="0">
-																			 			 <input id="Fore" type="name" placeholder="0"></div>
-																			 			 <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
 
 
-           <div><input id="Sqname" type="name" placeholder="">
-					      <input id="Sqname" type="name" placeholder="">
-					      <input id="Sqname" type="name" placeholder="">
-								<input id="Sqname" type="name" placeholder="">
-					      <input id="Sqname" type="name" placeholder=""></div>
-					 <div><input id="SqHull" type="name" placeholder="">
-					 	 	  <input id="SqHull" type="name" placeholder="">
-					 		  <input id="SqHull" type="name" placeholder="">
-								<input id="SqHull" type="name" placeholder="">
-					 		  <input id="SqHull" type="name" placeholder=""></div>
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+
+
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+
+
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+
+
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+
+
+                    <div><textarea id="Upgradeleft" name="upgrades" placeholder="Upgrades..."></textarea></div>
+                    <div><input id="Aft" type="name" placeholder="0">
+                         <input id="Left" type="name" placeholder="0">
+                         <input id="Hull" type="name" placeholder="0">
+                         <input id="Right" type="name" placeholder="0">
+                         <input id="Fore" type="name" placeholder="0"></div>
+                         <div id="zones"><h1>Aft<span class="gap1">Left</span><span class="gap2">Hull</span><span class="gap3">Right</span><span class="gap4">Fore</span></div>
+
+
+             <div><input id="Sqname" type="name" placeholder="">
+  					      <input id="Sqname" type="name" placeholder="">
+  					      <input id="Sqname" type="name" placeholder="">
+  								<input id="Sqname" type="name" placeholder="">
+  					      <input id="Sqname" type="name" placeholder=""></div>
+  					 <div><input id="SqHull" type="name" placeholder="">
+  					 	 	  <input id="SqHull" type="name" placeholder="">
+  					 		  <input id="SqHull" type="name" placeholder="">
+  								<input id="SqHull" type="name" placeholder="">
+  					 		  <input id="SqHull" type="name" placeholder=""></div>
+  					 <div><input id="Sqname" type="name" placeholder="">
+  							  <input id="Sqname" type="name" placeholder="">
+  								<input id="Sqname" type="name" placeholder="">
+  							  <input id="Sqname" type="name" placeholder="">
+  								<input id="Sqname" type="name" placeholder=""></div>
+  					 <div><input id="SqHull" type="name" placeholder="">
+  								<input id="SqHull" type="name" placeholder="">
+  								<input id="SqHull" type="name" placeholder="">
+  								<input id="SqHull" type="name" placeholder="">
+  								<input id="SqHull" type="name" placeholder=""></div>
+  					 <div><input id="Sqname" type="name" placeholder="">
+  		 						<input id="Sqname" type="name" placeholder="">
+  		 					  <input id="Sqname" type="name" placeholder="">
+  		 						<input id="Sqname" type="name" placeholder="">
+  		 					  <input id="Sqname" type="name" placeholder=""></div>
+  					 <div><input id="SqHull" type="name" placeholder="">
+  	 							<input id="SqHull" type="name" placeholder="">
+  	 							<input id="SqHull" type="name" placeholder="">
+  	 							<input id="SqHull" type="name" placeholder="">
+  	 						  <input id="SqHull" type="name" placeholder=""></div>
+  								<div><input id="SqHull" type="name" placeholder="">
+  		  							 <input id="SqHull" type="name" placeholder="">
+  		  							 <input id="SqHull" type="name" placeholder="">
+  		  							 <input id="SqHull" type="name" placeholder="">
+  		  							 <input id="SqHull" type="name" placeholder=""></div>
+  	</aside>
+
+
+
+  </aside>
+
+  <aside id="playerright"><div>
+
+    <Img id="nameR" src="Reb1R.png" alt="Faction" onclick="changeNR()";>
+
+         <script type="text/javascript">var image_tracker ='1';function changeNR()
+         {var image = document.getElementById('nameR');
+         if(image_tracker=='1'){image.src="Reb2R.png";image_tracker='2';}
+         else if(image_tracker=='2'){image.src="Imp1R.png";image_tracker='3';}
+         else if(image_tracker=='3'){image.src="Imp2R.png";image_tracker='4';}
+         else {image.src='Reb1R.png';image_tracker="1";}
+         }</script>
+
+
+    <input id="rightplayer" type="name" placeholder="Name.."></div>
+
+    <div><textarea id="Upgraderight" name="upgrades" placeholder="Upgrades..."></textarea></div>
+ 	 <div><input id="AftS" type="name" placeholder="0">
+ 				<input id="LeftA" type="name" placeholder="0">
+ 				<input id="RightA" type="name" placeholder="0">
+ 				<input id="Hull" type="name" placeholder="0">
+ 				<input id="LeftF" type="name" placeholder="0">
+ 				<input id="RightF" type="name" placeholder="0">
+ 				<input id="AftSSDR" type="name" placeholder="0"></div>
+ 				<div id="zonesSSD"><h2>Fore<span class="gapG">Right</span> <span class="gapH">Left</span> <span class="gapI">Hull</span><span class="gapJ">Right</span> <span class="gapK">Left</span><span class="gapL">Aft</span> </div>
+
+
 					 <div><input id="Sqname" type="name" placeholder="">
-							  <input id="Sqname" type="name" placeholder="">
 								<input id="Sqname" type="name" placeholder="">
-							  <input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
 								<input id="Sqname" type="name" placeholder=""></div>
 					 <div><input id="SqHull" type="name" placeholder="">
 								<input id="SqHull" type="name" placeholder="">
@@ -108,74 +175,38 @@
 								<input id="SqHull" type="name" placeholder="">
 								<input id="SqHull" type="name" placeholder=""></div>
 					 <div><input id="Sqname" type="name" placeholder="">
-		 						<input id="Sqname" type="name" placeholder="">
-		 					  <input id="Sqname" type="name" placeholder="">
-		 						<input id="Sqname" type="name" placeholder="">
-		 					  <input id="Sqname" type="name" placeholder=""></div>
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder=""></div>
 					 <div><input id="SqHull" type="name" placeholder="">
-	 							<input id="SqHull" type="name" placeholder="">
-	 							<input id="SqHull" type="name" placeholder="">
-	 							<input id="SqHull" type="name" placeholder="">
-	 						  <input id="SqHull" type="name" placeholder=""></div>
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder=""></div>
+					 <div><input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder="">
+								<input id="Sqname" type="name" placeholder=""></div>
+					 <div><input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder="">
+								<input id="SqHull" type="name" placeholder=""></div>
 								<div><input id="SqHull" type="name" placeholder="">
-		  							 <input id="SqHull" type="name" placeholder="">
-		  							 <input id="SqHull" type="name" placeholder="">
-		  							 <input id="SqHull" type="name" placeholder="">
-		  							 <input id="SqHull" type="name" placeholder=""></div>
-	</aside>
+										<input id="SqHull" type="name" placeholder="">
+										<input id="SqHull" type="name" placeholder="">
+										<input id="SqHull" type="name" placeholder="">
+										<input id="SqHull" type="name" placeholder=""></div>
+		</aside>
 
-	 <aside id="playerright">
-	 <div><input id="rightplayer" type="name" placeholder="Name.."></div>
+    <div id="OS"><input id="pointsL" type="name" placeholder="000">
+                 <input id="Objective" type="name" placeholder="Objective">
+                 <input id="pointsR" type="name" placeholder="000"></div>
 
-	 <div><input id="Shipright" type="name" placeholder="Ship..."></div>
-	 <div><textarea id="Upgraderight" name="upgrades" placeholder="Upgrades..."></textarea></div>
-	 <div><input id="AftS" type="name" placeholder="0">
-				<input id="LeftA" type="name" placeholder="0">
-				<input id="RightA" type="name" placeholder="0">
-				<input id="Hull" type="name" placeholder="0">
-				<input id="LeftF" type="name" placeholder="0">
-				<input id="RightF" type="name" placeholder="0">
-				<input id="AftSSDR" type="name" placeholder="0"></div>
-				<div id="zonesSSD"><h2>Fore<span class="gapG">Right</span> <span class="gapH">Left</span> <span class="gapI">Hull</span><span class="gapJ">Right</span> <span class="gapK">Left</span><span class="gapL">Aft</span> </div>
-
-
-					<div><input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder=""></div>
-					<div><input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder=""></div>
-					<div><input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder=""></div>
-					<div><input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder=""></div>
-					<div><input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder="">
-							 <input id="Sqname" type="name" placeholder=""></div>
-					<div><input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder="">
-							 <input id="SqHull" type="name" placeholder=""></div>
-				  <div><input id="SqHull" type="name" placeholder="">
-		 					 <input id="SqHull" type="name" placeholder="">
-		 					 <input id="SqHull" type="name" placeholder="">
-		 					 <input id="SqHull" type="name" placeholder="">
-		 					 <input id="SqHull" type="name" placeholder=""></div>
-	 </aside>
 
 <div id="back"><li><a target="_blank" href="../Armada.html">Back to main page</a></li></div>
+
 </body>
 </html>
