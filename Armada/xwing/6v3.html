@@ -1,0 +1,328 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="X Wing and Armada overlay builder">
+  <meta name="keywords" content="X Wing and Armada overlay builder">
+  <meta name="author" content="X Wing Nut">
+  <title>X Wing 6v3</title>
+  <link rel="stylesheet" type="text/css" href="../css/Xwing.css">
+</head>
+
+<body>
+  <aside id="playerleft">
+    <div>
+      <Img id="namel" src="Rebel.png" alt="Faction" onclick="changeNL()";>
+
+           <script type="text/javascript">var image_tracker ='1';function changeNL()
+           {var image = document.getElementById('namel');
+           if(image_tracker=='1'){image.src="Imp.png";image_tracker='2';}
+           else if(image_tracker=='2'){image.src="Scum.png";image_tracker='3';}
+           else if(image_tracker=='3'){image.src="Res.png";image_tracker='4';}
+           else if(image_tracker=='4'){image.src="FO.png";image_tracker='5';}
+           else if(image_tracker=='5'){image.src="GR.png";image_tracker='6';}
+           else if(image_tracker=='6'){image.src="Sept.png";image_tracker='7';}
+           else {image.src='Rebel.png';image_tracker="1";}
+           }</script>
+
+      <input id="leftplayer" type="name" placeholder="Name..">
+    </div>
+
+    <div><input id="Shipleft" type="name" placeholder="Pilot, Ship..."></div>
+         <input id="ps" type="name" value="6">
+         <Img id="hull1" src="Hull.jpg" alt="Hull" onclick="changeh1()";>
+              <script type="text/javascript">var image_tracker ='s';function changeh1()
+              {var image = document.getElementById('hull1');
+              if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+              else {image.src='Hull.jpg';image_tracker="s";}}</script>
+         <input id="hullvalue" type="name" value="3">
+         <Img id="sheild1" src="Sheild.jpg" alt="Sheild" onclick="change1()";>
+              <script type="text/javascript">var image_tracker ='s';function change1()
+              {var image = document.getElementById('sheild1');
+              if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+              else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+         <input id="sheildvalue" type="name" placeholder="">
+         <input id="points"></div>
+    <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+      <div><input id="Shipleft" type="name" placeholder="Pilot, Ship..."></div>
+           <input id="ps" type="name" value="5">
+           <Img id="hull2" src="Hull.jpg" alt="Hull" onclick="changeh2()";>
+                <script type="text/javascript">var image_tracker ='s';function changeh2()
+                {var image = document.getElementById('hull2');
+                if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                else {image.src='Hull.jpg';image_tracker="s";}}</script>
+           <input id="hullvalue" type="name" value="3">
+           <Img id="sheild2" src="Sheild.jpg" alt="Sheild" onclick="change2()";>
+                <script type="text/javascript">var image_tracker ='s';function change2()
+                {var image = document.getElementById('sheild2');
+                if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+           <input id="sheildvalue" type="name" placeholder="">
+           <input id="points"></div>
+      <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+        <div><input id="Shipleft" type="name" placeholder=".."></div>
+             <input id="ps" type="name" value="3">
+             <Img id="hull3" src="Hull.jpg" alt="Hull" onclick="changeh3()";>
+                  <script type="text/javascript">var image_tracker ='s';function changeh3()
+                  {var image = document.getElementById('hull3');
+                  if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                  else {image.src='Hull.jpg';image_tracker="s";}}</script>
+             <input id="hullvalue" type="name" value="3">
+             <Img id="sheild3" src="Sheild.jpg" alt="Sheild" onclick="change3()";>
+                  <script type="text/javascript">var image_tracker ='s';function change3()
+                  {var image = document.getElementById('sheild3');
+                  if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                  else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+             <input id="sheildvalue" type="name" placeholder="">
+             <input id="points"></div>
+        <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+          <div><input id="Shipleft" type="name" placeholder=".."></div>
+               <input id="ps" type="name" value="3">
+               <Img id="hull4" src="Hull.jpg" alt="Hull" onclick="changeh4()";>
+                    <script type="text/javascript">var image_tracker ='s';function changeh4()
+                    {var image = document.getElementById('hull4');
+                    if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                    else {image.src='Hull.jpg';image_tracker="s";}}</script>
+               <input id="hullvalue" type="name" value="3">
+               <Img id="sheild4" src="Sheild.jpg" alt="Sheild" onclick="change4()";>
+                    <script type="text/javascript">var image_tracker ='s';function change4()
+                    {var image = document.getElementById('sheild4');
+                    if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                    else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+               <input id="sheildvalue" type="name" placeholder="">
+               <input id="points"></div>
+          <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+            <div><input id="Shipleft" type="name" placeholder=".."></div>
+                 <input id="ps" type="name" value="1">
+                 <Img id="hull5" src="Hull.jpg" alt="Hull" onclick="changeh5()";>
+                      <script type="text/javascript">var image_tracker ='s';function changeh5()
+                      {var image = document.getElementById('hull5');
+                      if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                      else {image.src='Hull.jpg';image_tracker="s";}}</script>
+                 <input id="hullvalue" type="name" value="3">
+                 <Img id="sheild5" src="Black.jpg" alt="Sheild" onclick="change5()";>
+                      <script type="text/javascript">var image_tracker ='s';function change5()
+                      {var image = document.getElementById('sheild5');
+                      if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+                      else {image.src='Black.jpg';image_tracker="s";}}</script>
+                 <input id="sheildvalue" type="name" placeholder="">
+                 <input id="points"></div>
+            <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+              <div><input id="Shipleft" type="name" placeholder=".."></div>
+                   <input id="ps" type="name" value="1">
+                   <Img id="hull6" src="Hull.jpg" alt="Hull" onclick="changeh6()";>
+                        <script type="text/javascript">var image_tracker ='s';function changeh6()
+                        {var image = document.getElementById('hull6');
+                        if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+                        else {image.src='Hull.jpg';image_tracker="s";}}</script>
+                   <input id="hullvalue" type="name" value="3">
+                   <Img id="sheild6" src="Black.jpg" alt="Sheild" onclick="change6()";>
+                        <script type="text/javascript">var image_tracker ='s';function change6()
+                        {var image = document.getElementById('sheild6');
+                        if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+                        else {image.src='Black.jpg';image_tracker="s";}}</script>
+                   <input id="sheildvalue" type="name" placeholder="">
+                   <input id="points"></div>
+              <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+                <div><input id="Shipleft" type="name" placeholder=".."></div>
+                     <input id="ps" type="name" value="">
+                     <Img id="hull7" src="Black.jpg" alt="Hull" onclick="changeh7()";>
+                          <script type="text/javascript">var image_tracker ='s';function changeh7()
+                          {var image = document.getElementById('hull7');
+                          if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+                          else {image.src='Black.jpg';image_tracker="s";}}</script>
+                     <input id="hullvalue" type="name" value="">
+                     <Img id="sheild7" src="Black.jpg" alt="Sheild" onclick="change7()";>
+                          <script type="text/javascript">var image_tracker ='s';function change7()
+                          {var image = document.getElementById('sheild7');
+                          if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+                          else {image.src='Black.jpg';image_tracker="s";}}</script>
+                     <input id="sheildvalue" type="name" placeholder="">
+                     <input id="points"></div>
+                <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+                  <div><input id="Shipleft" type="name" placeholder=".."></div>
+                       <input id="ps" type="name" value="">
+                       <Img id="hull8" src="Black.jpg" alt="Hull" onclick="changeh8()";>
+                            <script type="text/javascript">var image_tracker ='s';function changeh8()
+                            {var image = document.getElementById('hull8');
+                            if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+                            else {image.src='Black.jpg';image_tracker="s";}}</script>
+                       <input id="hullvalue" type="name" value="">
+                       <Img id="sheild8" src="Black.jpg" alt="Sheild" onclick="change8()";>
+                            <script type="text/javascript">var image_tracker ='s';function change8()
+                            {var image = document.getElementById('sheild8');
+                            if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+                            else {image.src='black.jpg';image_tracker="s";}}</script>
+                       <input id="sheildvalue" type="name" placeholder="">
+                       <input id="points"></div>
+                  <div><imput class="form-group"><textarea id="Upgradeleft" name="upgrades" placeholder=""></textarea></div>
+
+  </aside>
+
+	<aside id="playerright"><div>
+
+    <Img id="nameR" src="Rebelr.png" alt="Faction" onclick="changeNR()";>
+
+         <script type="text/javascript">var image_tracker ='1';function changeNR()
+         {var image = document.getElementById('nameR');
+         if(image_tracker=='1'){image.src="Impr.png";image_tracker='2';}
+         else if(image_tracker=='2'){image.src="Scumr.png";image_tracker='3';}
+         else if(image_tracker=='3'){image.src="Resr.png";image_tracker='4';}
+         else if(image_tracker=='4'){image.src="FOr.png";image_tracker='5';}
+         else if(image_tracker=='5'){image.src="GRr.png";image_tracker='6';}
+         else if(image_tracker=='6'){image.src="Septr.png";image_tracker='7';}
+         else {image.src='Rebelr.png';image_tracker="1";}
+         }</script>
+
+
+		<input id="rightplayer" type="name" placeholder="Name.."></div>
+
+	<div><input id="Shipright" type="name" placeholder="Pilot, Ship..."></div>
+	<div><input id="points">
+			<input id="sheildvalue" type="name" placeholder="">
+			<Img id="sheilda" src="Sheild.jpg" alt="Sheild" onclick="changea()";>
+				 <script type="text/javascript">var image_tracker ='s';function changea()
+				 {var image = document.getElementById('sheilda');
+				 if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+				 else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+			 <input id="hullvaluer" type="name" value="3">
+			 <Img id="hulla" src="Hull.jpg" alt="Hull" onclick="changeha()";>
+						<script type="text/javascript">var image_tracker ='s';function changeha()
+						{var image = document.getElementById('hulla');
+						if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+						else {image.src='Hull.jpg';image_tracker="s";}}</script>
+			 <input id="ps" type="name" value="6"></div>
+	<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+		<div><input id="Shipright" type="name" placeholder="Pilot, Ship..."></div>
+		<div><input id="points">
+				<input id="sheildvalue" type="name" placeholder="">
+				<Img id="sheildb" src="Sheild.jpg" alt="Sheild" onclick="changeb()";>
+					 <script type="text/javascript">var image_tracker ='s';function changeb()
+					 {var image = document.getElementById('sheildb');
+					 if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+					 else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+				 <input id="hullvaluer" type="name" value="3">
+				 <Img id="hullb" src="Hull.jpg" alt="Hull" onclick="changehb()";>
+							<script type="text/javascript">var image_tracker ='s';function changehb()
+							{var image = document.getElementById('hullb');
+							if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+							else {image.src='Hull.jpg';image_tracker="s";}}</script>
+				 <input id="ps" type="name" value="5"></div>
+		<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+			<div><input id="Shipright" type="name" placeholder=".."></div>
+			<div><input id="points">
+					<input id="sheildvalue" type="name" placeholder="">
+					<Img id="sheildc" src="Sheild.jpg" alt="Sheild" onclick="changec()";>
+						 <script type="text/javascript">var image_tracker ='s';function changec()
+						 {var image = document.getElementById('sheildc');
+						 if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+						 else {image.src='Sheild.jpg';image_tracker="s";}}</script>
+					 <input id="hullvaluer" type="name" value="3">
+					 <Img id="hullc" src="Hull.jpg" alt="Hull" onclick="changehc()";>
+								<script type="text/javascript">var image_tracker ='s';function changehc()
+								{var image = document.getElementById('hullc');
+								if(image_tracker=='s'){image.src="Black.jpg";image_tracker='b';}
+								else {image.src='Hull.jpg';image_tracker="s";}}</script>
+					 <input id="ps" type="name" value="3"></div>
+			<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+				<div><input id="Shipright" type="name" placeholder=".."></div>
+				<div><input id="points">
+						<input id="sheildvalue" type="name" placeholder="">
+						<Img id="sheildd" src="Black.jpg" alt="Sheild" onclick="changed()";>
+							 <script type="text/javascript">var image_tracker ='s';function changed()
+							 {var image = document.getElementById('sheildd');
+							 if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+							 else {image.src='Black.jpg';image_tracker="s";}}</script>
+						 <input id="hullvaluer" type="name" value="">
+						 <Img id="hulld" src="Black.jpg" alt="Hull" onclick="changehd()";>
+									<script type="text/javascript">var image_tracker ='s';function changehd()
+									{var image = document.getElementById('hulld');
+									if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+									else {image.src='Black.jpg';image_tracker="s";}}</script>
+						 <input id="ps" type="name" value=""></div>
+				<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+					<div><input id="Shipright" type="name" placeholder=".."></div>
+					<div><input id="points">
+							<input id="sheildvalue" type="name" placeholder="">
+							<Img id="sheilde" src="Black.jpg" alt="Sheild" onclick="changee()";>
+								 <script type="text/javascript">var image_tracker ='s';function changee()
+								 {var image = document.getElementById('sheilde');
+								 if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+								 else {image.src='Black.jpg';image_tracker="s";}}</script>
+							 <input id="hullvaluer" type="name" value="">
+							 <Img id="hulle" src="Black.jpg" alt="Hull" onclick="changehe()";>
+										<script type="text/javascript">var image_tracker ='s';function changehe()
+										{var image = document.getElementById('hulle');
+										if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+										else {image.src='Black.jpg';image_tracker="s";}}</script>
+							 <input id="ps" type="name" value=""></div>
+					<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+						<div><input id="Shipright" type="name" placeholder=".."></div>
+						<div><input id="points">
+								<input id="sheildvalue" type="name" placeholder="">
+								<Img id="sheildf" src="Black.jpg" alt="Sheild" onclick="changef()";>
+									 <script type="text/javascript">var image_tracker ='s';function changef()
+									 {var image = document.getElementById('sheildf');
+									 if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+									 else {image.src='Black.jpg';image_tracker="s";}}</script>
+								 <input id="hullvaluer" type="name" value="">
+								 <Img id="hullf" src="Black.jpg" alt="Hull" onclick="changehf()";>
+											<script type="text/javascript">var image_tracker ='s';function changehf()
+											{var image = document.getElementById('hullf');
+											if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+											else {image.src='Black.jpg';image_tracker="s";}}</script>
+								 <input id="ps" type="name" value=""></div>
+						<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+							<div><input id="Shipright" type="name" placeholder=".."></div>
+							<div><input id="points">
+									<input id="sheildvalue" type="name" placeholder="">
+									<Img id="sheildg" src="Black.jpg" alt="Sheild" onclick="changeg()";>
+										 <script type="text/javascript">var image_tracker ='s';function changeg()
+										 {var image = document.getElementById('sheildg');
+										 if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+										 else {image.src='Black.jpg';image_tracker="s";}}</script>
+									 <input id="hullvaluer" type="name" value="">
+									 <Img id="hullg" src="Black.jpg" alt="Hull" onclick="changehg()";>
+												<script type="text/javascript">var image_tracker ='s';function changehg()
+												{var image = document.getElementById('hullg');
+												if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+												else {image.src='Black.jpg';image_tracker="s";}}</script>
+									 <input id="ps" type="name" value=""></div>
+							<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+								<div><input id="Shipright" type="name" placeholder=".."></div>
+								<div><input id="points">
+										<input id="sheildvalue" type="name" placeholder="">
+										<Img id="sheildh" src="Black.jpg" alt="Sheild" onclick="changeh()";>
+											 <script type="text/javascript">var image_tracker ='s';function changeh()
+											 {var image = document.getElementById('sheildh');
+											 if(image_tracker=='s'){image.src="Sheild.jpg";image_tracker='b';}
+											 else {image.src='Black.jpg';image_tracker="s";}}</script>
+										 <input id="hullvaluer" type="name" value="">
+										 <Img id="hullh" src="Black.jpg" alt="Hull" onclick="changehh()";>
+													<script type="text/javascript">var image_tracker ='s';function changehh()
+													{var image = document.getElementById('hullh');
+													if(image_tracker=='s'){image.src="Hull.jpg";image_tracker='b';}
+													else {image.src='Black.jpg';image_tracker="s";}}</script>
+										 <input id="ps" type="name" value=""></div>
+								<div><imput class="form-group"><textarea id="Upgraderight" name="upgrades" placeholder=""></textarea></div>
+
+</aside>
+
+<div id="back"><li><a target="_blank" href="../index.html">Back to main page</a></li></div>
+
+</body>
+</html>
