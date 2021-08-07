@@ -13,14 +13,19 @@
 
   <aside id="playerleft">
     <div>
-      <Img id="namel" src="Imp1L.png" alt="Faction" onclick="changeNL()";>
+
+      <Img id="namel" src="Reb1L.png" alt="Faction" onclick="changeNL()";>
 
            <script type="text/javascript">var image_tracker ='1';function changeNL()
            {var image = document.getElementById('namel');
-           if(image_tracker=='1'){image.src="Imp2L.png";image_tracker='2';}
-           else if(image_tracker=='2'){image.src="Reb1L.png";image_tracker='3';}
-           else if(image_tracker=='3'){image.src="Reb2L.png";image_tracker='4';}
-           else {image.src='Imp1L.png';image_tracker="1";}
+           if(image_tracker=='1'){image.src="Reb2L.png";image_tracker='2';}
+           else if(image_tracker=='2'){image.src="Imp1L.png";image_tracker='3';}
+           else if(image_tracker=='3'){image.src="Imp2L.png";image_tracker='4';}
+           else if(image_tracker=='4'){image.src="Rep1L.png";image_tracker='5';}
+           else if(image_tracker=='5'){image.src="Rep2L.png";image_tracker='6';}
+           else if(image_tracker=='6'){image.src="Sep1L.png";image_tracker='7';}
+           else if(image_tracker=='7'){image.src="Sep2L.png";image_tracker='8';}
+           else {image.src='Reb1L.png';image_tracker="1";}
            }</script>
 
       <input id="leftplayer" type="name" placeholder="Name.."></div>
@@ -87,15 +92,19 @@
 
   <aside id="playerright"><div>
 
-    <Img id="nameR" src="Reb1R.png" alt="Faction" onclick="changeNR()";>
+    <Img id="nameR" src="Imp1R.png" alt="Faction" onclick="changeNR()";>
 
-         <script type="text/javascript">var image_tracker ='1';function changeNR()
-         {var image = document.getElementById('nameR');
-         if(image_tracker=='1'){image.src="Reb2R.png";image_tracker='2';}
-         else if(image_tracker=='2'){image.src="Imp1R.png";image_tracker='3';}
-         else if(image_tracker=='3'){image.src="Imp2R.png";image_tracker='4';}
-         else {image.src='Reb1R.png';image_tracker="1";}
-         }</script>
+      <script type="text/javascript">var image_tracker ='1';function changeNR()
+      {var image = document.getElementById('nameR');
+      if(image_tracker=='1'){image.src="Imp2R.png";image_tracker='2';}
+      else if(image_tracker=='2'){image.src="Reb1R.png";image_tracker='3';}
+      else if(image_tracker=='3'){image.src="Reb2R.png";image_tracker='4';}
+      else if(image_tracker=='4'){image.src="Rep1R.png";image_tracker='5';}
+      else if(image_tracker=='5'){image.src="Rep2R.png";image_tracker='6';}
+      else if(image_tracker=='6'){image.src="Sep1R.png";image_tracker='7';}
+      else if(image_tracker=='7'){image.src="Sep2R.png";image_tracker='8';}
+      else {image.src='Imp1R.png';image_tracker="1";}
+      }</script>
 
 
     <input id="rightplayer" type="name" placeholder="Name.."></div>
